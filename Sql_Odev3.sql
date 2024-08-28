@@ -1,0 +1,9 @@
+-- SORU1
+-- SELECT country FROM country WHERE country ~~ 'A%a';
+-- SORU2
+-- SELECT country FROM country WHERE country ~~ '_____%n';
+-- SELECT country FROM country WHERE LENGTH(country) >= 6 AND country LIKE '%n';
+-- SORU3
+-- SELECT title FROM film WHERE title ~~* '%t%t%t%t%';
+-- SORU4
+-- SELECT title,length,rental_rate FROM film WHERE title ~~'C%' AND length > 90 AND rental_rate = 2.99;

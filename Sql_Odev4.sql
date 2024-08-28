@@ -1,0 +1,10 @@
+--SORU1
+-- SELECT DISTINCT(replacement_cost) FROM film; 
+--SORU2
+-- SELECT COUNT(DISTINCT(replacement_cost)) FROM film;
+--SORU3
+-- SELECT COUNT(*) FROM film WHERE title ~~ 'T%' AND rating = 'G';
+--SORU4
+-- SELECT COUNT(*) FROM country WHERE length(country) = 5;
+--SORU5
+-- SELECT COUNT(*) FROM CITY WHERE city ~~* '%r';
