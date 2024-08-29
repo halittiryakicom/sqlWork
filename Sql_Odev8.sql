@@ -1,0 +1,70 @@
+-- SORU 1
+-- CREATE TABLE employee (id SERIAL PRIMARY KEY, name VARCHAR(50), birthday DATE, email VARCHAR(100));
+
+-- SORU 2
+-- insert into employee (name, birthday, email) values ('Maye', '1990-06-23', 'mfernehough0@meetup.com');
+-- insert into employee (name, birthday, email) values ('Willa', null, 'wtrippack1@nih.gov');
+-- insert into employee (name, birthday, email) values ('Chryste', '1949-06-08', 'croddick2@vkontakte.ru');
+-- insert into employee (name, birthday, email) values ('Jeanne', null, 'jspence3@sciencedirect.com');
+-- insert into employee (name, birthday, email) values ('Dyanne', '1984-01-31', 'dcastagnasso4@google.com.hk');
+-- insert into employee (name, birthday, email) values ('Yule', '1940-05-05', 'yardron5@dyndns.org');
+-- insert into employee (name, birthday, email) values ('Malissa', '1960-10-05', 'mdjokovic6@desdev.cn');
+-- insert into employee (name, birthday, email) values ('Godfrey', null, 'gbachman7@woothemes.com');
+-- insert into employee (name, birthday, email) values ('Tybalt', '1980-03-03', null);
+-- insert into employee (name, birthday, email) values ('Standford', '1919-10-13', null);
+-- insert into employee (name, birthday, email) values ('Ezmeralda', '1941-01-19', 'ewoolfendena@tripadvisor.com');
+-- insert into employee (name, birthday, email) values ('Alaric', '1934-10-12', 'awhithalghb@nature.com');
+-- insert into employee (name, birthday, email) values ('Grantley', '1910-04-09', 'gsyddonc@diigo.com');
+-- insert into employee (name, birthday, email) values ('Maribel', '1948-07-19', 'mduleyd@squidoo.com');
+-- insert into employee (name, birthday, email) values ('Selestina', '1917-08-22', 'spinore@multiply.com');
+-- insert into employee (name, birthday, email) values ('Neel', '1945-10-13', null);
+-- insert into employee (name, birthday, email) values ('Justine', '1937-10-29', 'jengelbrechtg@google.com.au');
+-- insert into employee (name, birthday, email) values ('Shir', '1939-02-10', 'sbrabonh@nbcnews.com');
+-- insert into employee (name, birthday, email) values ('Rustie', null, 'rlebrumi@barnesandnoble.com');
+-- insert into employee (name, birthday, email) values ('Colin', '1939-10-12', 'cwilksj@skyrock.com');
+-- insert into employee (name, birthday, email) values ('Darby', '1914-05-05', 'dheckneyk@amazon.com');
+-- insert into employee (name, birthday, email) values ('Madge', '1974-08-22', 'mmcfaull@yelp.com');
+-- insert into employee (name, birthday, email) values ('Tawnya', '2000-07-21', 'tbanburym@squidoo.com');
+-- insert into employee (name, birthday, email) values ('Antony', null, 'acheasmann@symantec.com');
+-- insert into employee (name, birthday, email) values ('Freddy', '1916-01-05', 'fscraneo@va.gov');
+-- insert into employee (name, birthday, email) values ('Ingrid', null, 'iopenshawp@amazon.co.jp');
+-- insert into employee (name, birthday, email) values ('Faulkner', null, 'fcrowq@google.pl');
+-- insert into employee (name, birthday, email) values ('Loren', '1985-07-09', null);
+-- insert into employee (name, birthday, email) values ('Hallsy', '1984-09-19', null);
+-- insert into employee (name, birthday, email) values ('Sol', '1973-06-10', 'sleedest@state.tx.us');
+-- insert into employee (name, birthday, email) values ('Dyanna', '1980-04-08', 'dbarthodu@tuttocitta.it');
+-- insert into employee (name, birthday, email) values ('Brandon', '1953-10-13', 'bschulev@altervista.org');
+-- insert into employee (name, birthday, email) values ('Rodrigo', '1911-05-29', 'rlevisw@nyu.edu');
+-- insert into employee (name, birthday, email) values ('Adolphus', '1962-11-15', 'aclemersonx@parallels.com');
+-- insert into employee (name, birthday, email) values ('Clarette', '1960-08-06', null);
+-- insert into employee (name, birthday, email) values ('Chas', '1966-12-07', 'cgutchz@nationalgeographic.com');
+-- insert into employee (name, birthday, email) values ('Linnea', '1946-12-16', 'lmeeron10@home.pl');
+-- insert into employee (name, birthday, email) values ('Tamarah', '1957-01-25', 'tcianelli11@artisteer.com');
+-- insert into employee (name, birthday, email) values ('Marena', '1935-10-15', 'mottee12@mapquest.com');
+-- insert into employee (name, birthday, email) values ('Hayden', '1969-11-16', null);
+-- insert into employee (name, birthday, email) values ('Codie', '1901-10-01', 'chartburn14@google.nl');
+-- insert into employee (name, birthday, email) values ('Ellissa', '1976-11-11', 'efinnan15@usda.gov');
+-- insert into employee (name, birthday, email) values ('Minette', '1906-12-12', 'mlakeland16@nih.gov');
+-- insert into employee (name, birthday, email) values ('Ewell', null, 'enimmo17@ca.gov');
+-- insert into employee (name, birthday, email) values ('Dav', '1996-01-09', 'dorteu18@engadget.com');
+-- insert into employee (name, birthday, email) values ('Buddie', '1974-08-11', 'bchoffin19@dion.ne.jp');
+-- insert into employee (name, birthday, email) values ('Sigismundo', '1919-10-17', 'sattac1a@dagondesign.com');
+-- insert into employee (name, birthday, email) values ('Tova', '1973-09-13', null);
+-- insert into employee (name, birthday, email) values ('Pepita', '1964-04-08', 'pizchaki1c@comsenz.com');
+-- insert into employee (name, birthday, email) values ('Mignonne', '1950-03-06', 'mhussell1d@ucla.edu');
+
+-- SORU 3
+-- UPDATE employee SET name = 'Halit Tiryaki', email = 'halit@tiryaki.com', birthday = '1997-03-22' WHERE id = 1;
+-- UPDATE employee SET name = 'Özlem Dündar', email = 'ozlem@dundar.com', birthday = '1974-08-12' WHERE id = 2;
+-- UPDATE employee SET name = 'Ceyda Arslan', email = 'ceyda@arslan.com', birthday = '1999-10-15' WHERE id = 3;
+-- UPDATE employee SET name = 'Ayşe Kahveci', email = 'ayse@kahveci.com', birthday = '2005-02-15' WHERE id = 4;
+-- UPDATE employee SET name = 'Can Aytekin', email = 'can@aytekin.com', birthday = '1980-07-04' WHERE id = 5;
+
+-- SORU 4 
+-- DELETE FROM employee WHERE id = 6;
+-- DELETE FROM employee WHERE id = 7 AND name LIKE 'Chas%';
+-- DELETE FROM employee WHERE id = 8;
+-- DELETE FROM employee WHERE id = 9;
+-- DELETE FROM employee WHERE id = 10;
+
+SELECT * FROM employee;
